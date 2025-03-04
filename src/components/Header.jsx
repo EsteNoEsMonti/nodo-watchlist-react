@@ -1,6 +1,6 @@
 import React from 'react'
 import { List, Queue } from "@phosphor-icons/react";
-import logoTicket from '../assets/logoTicket.svg'
+import logoTicket from '/assets/logoTicket.svg'
 import { paddingXPage } from '../utils/paddingPage';
 import { motion } from "framer-motion";
 

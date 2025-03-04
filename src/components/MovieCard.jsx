@@ -5,7 +5,7 @@ const MovieCard = ({ movie, addToWatchlist }) => {
     <div className="bg-gray-800 py-4 px-2 rounded-xl shadow-3xl text-center max-w-[350px]">
       <div className="w-full h-96 overflow-hidden rounded-xl">
         <img
-          src={`src/assets/imgMovies/${movie.img}.jpg`}
+          src={`/assets/imgMovies/${movie.img}.jpg`}
           alt={movie.name}
           className="w-full h-full object-contain"
         />

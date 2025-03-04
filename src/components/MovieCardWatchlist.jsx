@@ -6,7 +6,7 @@ const MovieCardWatchlist = ({ movie, removeFromWatchlist }) => {
     <div className="flex items-center bg-gray-800 rounded-xl p-3 shadow-md border border-yellow-300">
       {/* Imagen de la película */}
       <img
-        src={`src/assets/imgMovies/${movie.img}.jpg`}
+        src={`/assets/imgMovies/${movie.img}.jpg`}
         alt={movie.name}
         className="w-16 h-24 object-cover rounded-lg shadow-sm"
       />
